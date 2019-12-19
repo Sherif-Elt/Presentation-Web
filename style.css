@@ -100,3 +100,17 @@ i {
         transform: translateX(0)
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    .page {
+        padding: 0rem 2rem;
+    }
+    #page-1 h1 {
+        font-size: 2rem;
+    }
+
+    #page-1 p, #page-2 p, #page-3 p, #page-4 p {
+        font-size: 0.85rem;
+    }
+}
