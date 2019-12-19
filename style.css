@@ -3,7 +3,7 @@
     --page-2-color: tan;
     --page-3-color: teal;
     --page-4-color: slateblue;
-    --animate-speed: 2s;
+    --animate-speed: 1.5s;
   }
 
 
@@ -85,7 +85,7 @@ i {
 }
 
 #page-1 p {
-    transform: translateX(-1600px);
+    transform: translateX(-2000px);
     animation: text var(--animate-speed) forwards ease-in-out 1s;
 }
 
